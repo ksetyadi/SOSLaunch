@@ -1,0 +1,66 @@
+body
+{
+	margin: 0px;
+	font-family: Tahoma;
+	font-size: 12px;
+}
+
+th
+{
+	background-color: #6D8293;
+	padding: 5px;
+	color: #FFFFFF;
+}
+
+td
+{
+	background-color: #D9D9D9;
+	padding: 5px;
+}
+
+#header_container
+{
+	background-color: #AFD43D;
+	padding: 10px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 14px;
+	height: 20px;
+	margin-bottom: 10px;
+}
+
+#header_container_left
+{
+	position: absolute;
+	left: 10px;
+}
+
+#header_container_right
+{
+	position: absolute;
+	right: 10px;
+}
+
+#map_container
+{
+	background-color: #AFD43D;
+	position: absolute;
+	height: 0px;
+	bottom: 0px;
+	width: 100%;
+	display: none;
+}
+
+#close_button_container
+{
+	position: absolute;
+	top: 4px;
+	left: 4px;
+	z-index: 500;
+}
+
+#core_map
+{
+	padding: 20px;
+}
+
