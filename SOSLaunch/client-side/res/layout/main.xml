@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/introductory"
+    android:gravity="center_horizontal"
+    android:textStyle="bold"
+    />
+    
+<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/lblPhoneNumber"
+	android:gravity="center_horizontal"
+	/>
+	
+<EditText
+	android:text="@string/eTxtPhoneNumber"
+	android:id="@string/eTxtPhoneNumber"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:inputType="phone"
+	android:gravity="center_horizontal"
+	></EditText>
+
+<TextView
+	android:text="@string/lblCondition"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:gravity="center_horizontal"
+	/>
+
+<EditText 
+	android:text="@string/eTxtCondition" 
+	android:id="@string/eTxtCondition" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	></EditText>
+	
+<Button 
+	android:text="@string/btnSend" 
+	android:id="@+id/btnSend" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:layout_gravity="center_horizontal"
+	android:clickable="true"
+	></Button>
+
+</LinearLayout>

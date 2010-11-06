@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, SOSLaunch!</string>
+    <string name="app_name">SOS Launch</string>
+<string name="introductory">You are about to launch\nthe SOS CONDITION!\n\nPlease\nCONFIRM YOUR SITUATION\nand\npress SEND\n\n</string>
+<string name="btnSend">Send</string>
+<string name="eTxtCondition"></string>
+<string name="lblPhoneNumber">Your Phone Number</string>
+<string name="eTxtPhoneNumber"></string>
+<string name="lblCondition">Your Condition</string>
+<item name="btnSend" type="id">Send</item>
+</resources>
